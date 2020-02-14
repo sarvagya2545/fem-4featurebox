@@ -1,0 +1,162 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fafafa;
+  padding-top: 30px;
+  font-size: 15px;
+}
+
+.title-container {
+  text-align: center;
+}
+
+.title-title {
+  font-weight: 100;
+  font-size: 30px;
+  margin-bottom: 0.5rem;
+}
+
+.title-txt {
+  font-weight: 600;
+  font-size: 30px;
+  margin-top: 0.5rem;
+}
+
+.title-statement {
+  color: #a3a5ae;
+}
+
+#cards {
+  display: flex;
+  flex-direction: row;
+  margin: 5%;
+  justify-content: center;
+}
+
+.flash {
+  flex-basis: 0;
+  flex-grow: 1;
+  height: 50%;
+  margin: 0 25px;
+  padding: 2% 3%;
+  background-color: #fff;
+  box-shadow: 0 4px 8px 0 #a3a5ae;
+}
+
+.double-cards {
+  display: flex;
+  width: 35%;
+  flex-direction: column;
+}
+
+.flash-text {
+  color: #a3a5ae;
+}
+
+.extra {
+  margin-right: 20px;
+}
+
+.f1 {
+  border-top: 2px solid red;
+  margin-bottom: 20px;
+  flex-grow: 0.5;
+  padding: 30px 40px;
+}
+
+.f2 {
+  border-top: 2px solid orange;
+  flex-grow: 0.5;
+  padding: 30px 40px;
+}
+
+.f3 {
+  border-top: 2px solid blue;
+  margin: auto 0;
+}
+
+.f4 {
+  border-top: 2px solid cyan;
+  margin: auto 0;
+}
+
+.icon-Supervisor {
+  background: url("images/icon-supervisor.svg");
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+}
+
+.icon-TeamBuilder {
+  background: url("images/icon-team-builder.svg");
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+}
+
+.icon-Karma {
+  background: url("images/icon-karma.svg");
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+}
+
+.icon-Calculator {
+  background: url("images/icon-calculator.svg");
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin-left: auto;
+}
+
+.title-statement {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.blank-space {
+  height: 10px;
+}
+
+@media (max-width: 500px) {
+  #cards {
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    justify-content: center;
+  }
+
+  .f1 {
+    border-top: 2px solid red;
+    margin: auto 0 20px;
+  }
+
+  .f2 {
+    border-top: 2px solid orange;
+    margin: auto 0 20px;
+  }
+
+  .double-cards {
+    display: flex;
+    width: inherit;
+    flex-direction: column;
+  }
+
+  .f3 {
+    border-top: 2px solid blue;
+    margin: auto 0 20px;
+    padding: 30px 40px;
+  }
+
+  .f4 {
+    border-top: 2px solid cyan;
+    margin: auto 0 20px;
+    padding: 30px 40px;
+  }
+
+  .title-statement{
+    width: 350px;
+  }
+}
